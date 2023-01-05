@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+.header {
+  background-image:linear-gradient(360deg, #121212 0%, rgba(247, 239, 239, 0) 100%), url(../images/donation1.jpg);
+  height: 669px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  text-align: center;
+
+  
+}
+.banner {
+   padding:175px 300px ;
+}
+.banner-title {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 65px;
+  text-align: center;
+}
+.banner-description {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  margin-top: 20px;
+  text-align: center;
+}
+.btn-primary {
+    color: #FFFFFF;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  border: none;
+  margin-top: 30px;
+  padding: 16px 20px;
+  border-radius: 5px;
+  background: #FF5959;
+}

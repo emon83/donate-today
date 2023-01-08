@@ -2,6 +2,8 @@
   margin: 0;
   font-family: "Open Sans", sans-serif;
 }
+
+/* banner section */
 .header {
   background-image: linear-gradient(
       360deg,
@@ -9,25 +11,23 @@
       rgba(247, 239, 239, 0) 100%
     ),
     url(../images/donation1.jpg);
-  height: 669px;
   background-repeat: no-repeat;
   background-size: cover;
-
   text-align: center;
 }
 .banner {
-  padding: 175px 300px;
+  padding: 250px 300px 250px 300px;
 }
 .banner-title {
   color: #ffffff;
-  font-weight: 700;
+  font-weight: 900;
   font-size: 65px;
   text-align: center;
 }
 .banner-description {
   color: #ffffff;
-  font-weight: 400;
-  font-size: 18px;
+  font-weight: 500;
+  font-size: 20px;
   line-height: 28px;
   margin-top: 20px;
   text-align: center;
@@ -39,55 +39,67 @@
   line-height: 24px;
   border: none;
   margin-top: 30px;
-  padding: 16px 20px;
+  padding: 18px 23px;
   border-radius: 5px;
   background: #ff5959;
 }
 
-/*  */
+/* section title */
 
 .section-title {
   font-weight: 700;
   font-size: 45px;
   line-height: 54px;
   text-align: center;
-  margin-top: 98px;
+  margin-top: 120px;
+  font-weight: 900;
 }
 .section-description {
   color: #707070;
-  font-weight: 400;
-  font-size: 18px;
+  font-weight: 500;
+  font-size: 20px;
   line-height: 28px;
   text-align: center;
   margin-top: 20px;
+  margin-bottom: 65px;
 }
 .info-container {
   display: flex;
   justify-content: space-around;
   text-align: center;
+  margin: 0 337px 0 337px;
 }
 .info {
-  font-weight: 700;
+  font-weight: 900;
   font-size: 30px;
   line-height: 36px;
   color: #707070;
   padding: 43px 23px;
-  margin: 50px;
 }
 .secondary {
   margin-top: -50px;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 36px;
   line-height: 36px;
-  padding: 49px 24px;
+  padding: 55px 30px;
   color: #ff5959;
   background: #ffeeee;
+  border: 3px solid #eb4444;
+  border-radius: 5px;
+}
+.header-break {
+  width: 765px;
+  height: 1px;
+  margin-top: 20px;
+  margin-left: 378px;
+  color: rgb(245, 245, 245);
 }
 .info-text {
-  font-weight: 400;
-  font-size: 18px;
+  font-weight: 500;
+  font-size: 20px;
   color: #b3b3b3;
   text-align: center;
+  margin-top: 50px;
 }
 .info-footer .btn-primary {
   margin-left: 685px;
@@ -96,60 +108,75 @@
 /*  our donate plan */
 .donate-container {
   display: flex;
-  gap: 24px;
-  margin: 50px 157px;
+  gap: 12px;
+  margin: 50px 157px 50px 170px;
 }
 .donate-box-one {
   background: rgba(79, 157, 166, 0.1);
   box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
   border-radius: 5px;
   padding: 30px;
-  width: 360px;
-  height: 352px;
+  width: 330px;
+  height: 322px;
 
-  text-align: center;
+  text-align: left;
 }
 .donate-box-two {
   background: rgba(255, 89, 89, 0.1);
   box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
   border-radius: 5px;
   padding: 30px;
-  width: 360px;
-  height: 352px;
-  text-align: center;
+
+  width: 330px;
+  height: 322px;
+  text-align: left;
 }
 .donate-box-three {
-  background: #f4e6c0;
+  background: #f4ead2;
   box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
   border-radius: 5px;
   padding: 30px;
-  width: 360px;
-  height: 352px;
-  text-align: center;
+
+  width: 330px;
+  height: 322px;
+  text-align: left;
 }
 .donate-title {
-  font-weight: 600;
-  font-size: 24px;
+  font-weight: 900;
+  font-size: 26px;
   line-height: 36px;
   color: #121212;
-  padding: 0px 128px 23px 0px;
+  padding: 0px 0px 23px 3px;
 }
-.donate-description {
-  font-weight: 400;
-  font-size: 16px;
+.donate-box-one .donate-description {
+  font-weight: 500;
+  font-size: 17px;
   line-height: 24px;
   color: #707070;
-  padding: 0px 22px 53px 23px;
+  padding: 0px 22px 53px 3px;
+}
+.donate-box-two .donate-description {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #707070;
+  padding: 0px 22px 53px 3px;
+}
+.donate-box-three .donate-description {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #707070;
+  padding: 0px 22px 53px 3px;
 }
 .donate-container img {
-  width: 58.13px;
-  height: 49.77px;
-  padding: 63px 278px 31px 23px;
+  width: 68.13px;
+  height: 59.77px;
+  padding: 40px 278px 31px 3px;
 }
 
 /* donate contribute section */
-.donate-contribute {
-}
+
 .one-content {
   display: flex;
   gap: 24px;
@@ -161,13 +188,13 @@
   margin: 0px 100px;
 }
 .one-content .content-text {
-  margin: 50px 60px 156px 0px;
+  margin: 60px 60px 156px 0px;
 }
 .two-content .content-text {
   margin: 50px 60px 156px;
 }
 .one-content .contribute-title {
-  font-weight: 700;
+  font-weight: 900;
   font-size: 45px;
   line-height: 54px;
 }
@@ -182,9 +209,11 @@
   width: 550px;
   height: 477px;
   margin-right: 152px;
+  margin-top: 40px;
+  border-radius: 8px;
 }
 .two-content .contribute-title {
-  font-weight: 700;
+  font-weight: 900;
   font-size: 45px;
   line-height: 54px;
 }
@@ -199,9 +228,10 @@
   width: 550px;
   height: 477px;
   margin-left: 56px;
+  border-radius: 8px;
 }
 
-/*  */
+/* donate footer */
 .donate-footer-content {
   margin: 80px 375px 50px 375px;
 }
@@ -210,6 +240,7 @@
   font-size: 45px;
   line-height: 54px;
   text-align: center;
+  margin-bottom: 30px;
 }
 .donate-footer-description {
   font-weight: 400;
@@ -220,22 +251,42 @@
 }
 .donate-form-container {
   width: 809px;
-  height: 200px;
+  height: 170px;
   text-align: center;
-  padding-top: 100px;
+  padding-top: 50px;
   background: #fff4d6;
-  margin: 100px 315px 80px 380px;
+  margin: 50px 315px 130px 380px;
   text-align: center;
+  border-radius: 5px;
 }
 .donate-form-container input {
   width: 275px;
   height: 48px;
   background: #d9d9d9;
+  border-radius: 5px;
+  border: none;
+  color: rgba(170, 159, 159, 1);
+  padding-left: 18px;
+  margin-right: -5px;
+}
+.donate-form-container button {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  border: none;
+  margin-top: 30px;
+  padding: 12px 17px;
+  border-radius: 5px;
+  background: #ff5959;
+  width: 157px;
+  height: 48px;
 }
 .footer {
   width: 100%;
   height: 177px;
   background: #0b0d17;
+  padding-bottom: 20px;
 }
 .footer-title {
   font-family: "Lobster", cursive;

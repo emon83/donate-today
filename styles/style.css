@@ -78,8 +78,8 @@
 }
 .secondary {
   margin-top: -50px;
-  font-weight: 700;
-  font-size: 36px;
+  font-weight: 900;
+  font-size: 30px;
   line-height: 36px;
   padding: 55px 30px;
   color: #ff5959;
@@ -236,14 +236,14 @@
   margin: 80px 375px 50px 375px;
 }
 .donate-footer-title {
-  font-weight: 700;
+  font-weight: 900;
   font-size: 45px;
   line-height: 54px;
   text-align: center;
   margin-bottom: 30px;
 }
 .donate-footer-description {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 18px;
   line-height: 28px;
   text-align: center;
